@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            fieldset {
+                border: 1px solid grey;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            label {
+                width: 150px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+    	    <div id="main">
+    		    <div id="container">
+    			    <div id="content" role="main">
+                        <header><h1>Order Form</h1></header>
+							<div>
+								<fieldset>
+									<legend>General info</legend>
+										<form>
+											<label for="email">Email</label>
+											<input id ="email" type="email" placeholder="Your@email.com">
+										</form>
+										<form>
+											<label for="login">Login</label>
+											<input id = "login" type="text" name ="login" placeholder="Login">
+										</form>
+										<form>
+											<label for="password">Password</label>
+											<input id="password" type="password" placeholder="Password">
+										</form>
+								</fieldset>
+							</div>
+							<div>
+								<fieldset>
+									<legend>User info</legend>
+										<form>
+											<label for="first-name">First Name</label>
+											<input id ="first-name" type="text" placeholder="John">
+										</form>
+										<form>
+											<label for="second-name">Second Name</label>
+											<input id ="second-name" type="text" placeholder="Doe">
+										</form>
+										<form>
+											<label for="gender">Gender</label>
+											Male
+											<input id = "gender2" type="checkbox" name="checkbox" value="male" checked>
+											Female	
+											<input id = "gender2" type="checkbox" name="checkbox" value="female">
+										</form>
+										<form>
+											<label for="Age">Age</label>
+											<input id = "Age" type="number" placeholder="32">
+										</form>
+										<form>
+											<label for="About">About me</label>
+											<textarea id = "About" cols="20" rows="5"></textarea>
+										</form>
+								</fieldset>
+							</div>
+							<div>
+								<fieldset>
+									<legend>Order Info</legend>
+										<form>
+											<label for="Product">Product</label>
+											<select id="Product">
+												<option id = "Product1" value="Iphone">iPhone</option>
+												<option id = "Product2" value="Nokia">Nokia</option>
+												<option id = "Product3" value="Sony">Sony</option>
+											</select>
+										</form>
+										<form>
+											<label for="Frontcolor">Front Color</label>
+											Black
+											<input id = "Frontcolor1" type="radio" name="frontcolor">
+											Pink
+											<input id = "Frontcolor2" type="radio" name="frontcolor">
+											Gold
+											<input id = "Frontcolor3" type="radio" name= "frontcolor">
+										</form>
+										<form>
+											<label for="Backcolor">Back-side color</label>
+											<input id = "Backcolor" type="color">
+										</form>
+										<form>
+											<label for="Amount">Amount</label>
+											<input id = "Amount" type="number" placeholder="5">
+										</form>
+										<form>
+											<label for="Delivery">Delivery Date</label>
+											<input type="Datetime" name="created">
+										</form>
+								</fieldset>
+							</div>
+                        <form>
+                            <input type="Reset" value="Reset">
+                            <input type="Submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
