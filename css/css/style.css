@@ -24,6 +24,7 @@
 	color: #ED8D8D;
 }
 
+
 .nav {
 	font-family: 'bebasregular',Arial, sans-serif;
 	width: 70%;
@@ -34,6 +35,7 @@
 	list-style: none;
 	margin: 0 auto;
 }
+
 
 .nav ul li {
 	float: right;
@@ -46,12 +48,9 @@
 	color:grey;
 }
 
-.nav ul li a:hover {
-	color:#E24228;
-}
-
-.nav ul li a:active {
-	color: #FDD24D;
+.nav ul li.active a{
+	color: #E64B07;
+	text-decoration: none;
 }
 
 .page-tag {
@@ -104,12 +103,11 @@
 	width: 70%;
 }
 
-.fotoboy img {
-	padding-top: 17px;
-	padding-right: 20px;
-	padding-bottom:20px;
-	width: 34%;
+.avatar img {
 	float: left;
+    margin: 3px 3px 3px 0;
+    padding: 2px;
+	border: 1px solid #cccccc;
 }
 
 .D {
